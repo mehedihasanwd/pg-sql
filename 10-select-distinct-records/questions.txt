@@ -1,0 +1,13 @@
+Queries on products:
+
+01. Write a query to find all the unique categories from products.
+
+02. Write a query to calculate total unique categories.
+
+
+----------------------------------------
+Queries on orders:
+
+----------------------------------------
+Queries on merging both products and orders:
+
