@@ -1,0 +1,37 @@
+*
+make use of:
+WHERE, AND, OR, NOT, NOT IN, IN, BETWEEN,
+JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN,
+=, !=, >, <, >=, <=
+
+
+*
+
+
+01. Display the "contents" of a statement and the "username"
+of the "user" who wrote the comment.
+
+02. Display the "contents" of a statement and the "username"
+of the "user" who wrote the comment and "user_id" is
+not equal to 2.
+
+03. Display the "contents" of a statement and the "url"
+of the "photo" was attached to the comment.
+
+04. Suppose you've two tables "writers" and "books". A writer
+has many books. This means that books should have a foreign key
+column that references a writer. Write a query that will JOIN
+together these two tables. For each book, print the "book_name" and the "writer_name".
+
+05. JOIN "photos" and "users" table and display each "photo_url"
+and "username" who added the photo.
+
+06. Update a photo of "photos" table and give a valid "user_id" where "user_id" is Null;
+
+07. Suppose you've two tables "writers" and "books". Write a query that will return the title of each book, along with the name of the author. All authors should be included, even if they do not have a book associated with them.
+
+08. Suppose you've three databases like "users", "photos", "statements". Write a query where an statement commenters
+"_id" should be exactly equal to photo user_id.
+
+09. You are working with a database of books, authors, and reviews.Write a query that will return the title of each book, along with the name of the author, and the rating of a review.  Only show rows where the author of the book is also the author of the review.
+

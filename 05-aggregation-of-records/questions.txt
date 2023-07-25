@@ -1,0 +1,29 @@
+01. Write a query in "statements" to group by based on "user_id".
+
+02. Select the minimum/maximum/avg/count/sum value of "_id" column from "statements".
+
+03. Write a query in "statements" to group by based on "user_id"
+and find the minimum/maximum/avg/count/sum value of statement "_id" that was written by the user.
+
+04. Write a query in "statements" to group by based on "user_id"
+and find how many "statements" made by the user.
+
+05. Write a query in "statements" to group by based on "user_id"
+and find how many "statements" made by the user even the "user_id" is "null"
+
+06. Write a query in "photos" to count the number of "photos" it contains including "user_id" even it is "null".
+
+07. Write a query to find the number of "statements" for each photo.
+
+08. Write a query that will print each "writer_id" and the number of "books" they have written.
+
+08. Write a query that will print each "writer_name" and the number of "books" they have written.
+
+08. Write a query that will print each "writer_name" and the number of "books" (condition: print only if they've written more than 2 books).
+
+09. Find the number of "books" of each "writer" where "writer_id"
+if greater than 4 and the "writer" has more than 3 "books". 
+
+10. Write a query to find the users where the user has written "statement" on the first 3 photos and the user added less than 3 "statments" on those photos.
+
+11. Given a table of "phones", print the names of "companies" and total "revenue" (price * units_sold) for all "phones".  Only print the "companies" who have "revenue" greater than 200000 for all the "phones" they sold.

@@ -1,0 +1,40 @@
+Queries in products:
+01. Write a query to show the "title", "price" of all products that are more expensive than all products in the
+"accessories" category. 
+
+02. Write a query that prints the name and price for each "product".  In addition, print out the ratio of the "products" price against max price of all "products" (so price / max price).  Rename this third column to "price_ratio".
+
+03. Calculate the average price of "products" for each "category".  Then print the highest average price. Rename this value to max_average_price
+
+04. Display the title of all products with a price greather than
+the average product price.
+
+05. Write a query that prints out the title and price of products that have a price greater than the 'Cream Straw Hat';
+
+06. Display the title, category of all products that are not in the same category as products with price less than 20
+
+07. Display the title, category and price of products that are more expensive than all products in the 'accessories' category.
+
+08. Display the title, category, price of products that are more expensive than at least one products in the 'accessories' category.
+
+09. Write a query that prints the title of all prodcuts that have a price greater than all products in 'women' category.
+
+10. Display the title, category, price of the most expensive product in each department.
+
+11. Using only subqueries, print the max price, min price, and average price of all products.  Rename each column to max_price, min_price, avg_price
+
+-------------------------------------------------------------------
+Queries in orders:
+
+01. Find the average number of orders for all users.
+
+02. Display the _id of orders that involve a product from products with a price/weight ratio less than or equal to 1.
+
+03. Without using a join or a group by, print the number of orders for each product.
+
+-------------------------------------------------------------------
+Queries in users:
+
+page = 1
+limit = 1
+offset = page - 1 * limit

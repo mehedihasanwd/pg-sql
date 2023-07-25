@@ -1,0 +1,18 @@
+Queries on users:
+
+-------------------------------------------------------------
+Queries on products:
+
+01. Find the 4 products with the highest price and the 4 products
+with the highest price/weight ratio; (UNION)
+
+02. Find the 4 products with the highest price and the 4 products
+with the highest price/weight ratio and only display the products
+which are common in both conditions. (INTERSECT)
+
+03. Write a query that will print the "category" of products where the product's price is less than 100.  Also print all "category" name that have includes more than two products.
+
+-------------------------------------------------------------
+Queries on orders:
+
+01. 

@@ -1,0 +1,18 @@
+Queries on users:
+
+-------------------------------------------------------------
+Queries on products:
+
+01. Write a query to print all products and sort them by price. (asc/desc).
+
+02. Write a query to print all products and sort them by price. (asc/desc) and skip first 5 products and show only 5 products.
+
+03. Write a query that shows the "product_name" of only the second and third most expensive "products".
+
+-------------------------------------------------------------
+Queries on orders:
+
+01. Write a query to print the number of "paid" and "unpaid" orders.
+
+02. Join together the "users" and "orders" tables.  Print the "username" of each user, then whether or not they have "paid" for their order.
+
