@@ -14,6 +14,9 @@ CREATE TABLE posts(
 
 
 -- Answer of questions: starts --
+SELECT posts.user_id, caption FROM posts 
+JOIN users ON users.id = posts.user_id
+WHERE users.id = 50;
 
 
 
