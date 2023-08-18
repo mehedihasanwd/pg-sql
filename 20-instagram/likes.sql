@@ -18,6 +18,11 @@ CREATE TABLE likes (
 
 
 -- Answer of questions: starts --
+SELECT users.id AS user_id, username, 
+COUNT(*) AS total_likes
+FROM users
+JOIN likes ON likes.user_id = users.id
+GROUP BY users.id, username ORDER BY users.id;
 
 
 
