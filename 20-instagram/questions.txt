@@ -5,6 +5,8 @@ users:
 ------------------------------------------------------------------
 posts:
 
+01. Write a query to find all the posts by a particular user. Suppose user_id is 50. Print user_id and caption only.
+
 ------------------------------------------------------------------
 comments:
 
