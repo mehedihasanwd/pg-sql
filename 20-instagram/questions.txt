@@ -4,6 +4,8 @@ users:
 
 02. Create index for 'username' column.
 
+03. Drop 'username' index from 'users' collection.
+
 ------------------------------------------------------------------
 posts:
 
