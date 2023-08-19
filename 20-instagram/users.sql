@@ -29,5 +29,13 @@ DROP INDEX users_username_idx;
 EXPLAIN ANALYZE SELECT * FROM users
 WHERE username = 'Payton88';
 
+-- With index: 0.052ms avg
+EXPLAIN ANALYZE SELECT * FROM users
+WHERE username = 'Payton88';
+
+-- Without index: 0.500ms avg
+EXPLAIN ANALYZE SELECT * FROM users
+WHERE username = 'Payton88';
+
 
 -- Answer of questions: endss --
