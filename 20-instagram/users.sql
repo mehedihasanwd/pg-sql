@@ -22,5 +22,7 @@ SELECT id FROM users
 ORDER BY id DESC 
 LIMIT 3;
 
+CREATE INDEX ON users(username);
+
 
 -- Answer of questions: endss --
