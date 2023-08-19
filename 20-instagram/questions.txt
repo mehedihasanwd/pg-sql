@@ -8,6 +8,8 @@ users:
 
 04. Write a query to check 'username' indexing and how much it takes to retrieve data. In other words, check if indexing takes less time to retrieve data.
 
+05. Check how much time it takes to retrieve data from 'users' collection in both 'index' and without 'index'.
+
 ------------------------------------------------------------------
 posts:
 
