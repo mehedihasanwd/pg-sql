@@ -6,6 +6,8 @@ users:
 
 03. Drop 'username' index from 'users' collection.
 
+04. Write a query to check 'username' indexing and how much it takes to retrieve data. In other words, check if indexing takes less time to retrieve data.
+
 ------------------------------------------------------------------
 posts:
 
