@@ -2,6 +2,8 @@ users:
 
 01. Write a query to find the 3 users with the highest IDs from the users table.
 
+02. Create index for 'username' column.
+
 ------------------------------------------------------------------
 posts:
 
