@@ -24,5 +24,7 @@ LIMIT 3;
 
 CREATE INDEX ON users(username);
 
+DROP INDEX users_username_idx;
+
 
 -- Answer of questions: endss --
