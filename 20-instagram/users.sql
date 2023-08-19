@@ -26,5 +26,8 @@ CREATE INDEX ON users(username);
 
 DROP INDEX users_username_idx;
 
+EXPLAIN ANALYZE SELECT * FROM users
+WHERE username = 'Payton88';
+
 
 -- Answer of questions: endss --
