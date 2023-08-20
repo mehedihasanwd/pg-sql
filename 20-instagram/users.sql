@@ -42,6 +42,16 @@ FROM users
 JOIN comments on comments.user_id = users.id
 WHERE username = 'Payton88';
 
+EXPLAIN SELECT username, contents
+FROM users 
+JOIN comments on comments.user_id = users.id
+WHERE username = 'Payton88';
+
+EXPLAIN ANALYZE SELECT username, contents
+FROM users 
+JOIN comments on comments.user_id = users.id
+WHERE username = 'Payton88';
+
 
 -- Answer of questions: ends --
 
