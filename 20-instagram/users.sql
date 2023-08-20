@@ -37,8 +37,13 @@ WHERE username = 'Payton88';
 EXPLAIN ANALYZE SELECT * FROM users
 WHERE username = 'Payton88';
 
+SELECT username, contents
+FROM users 
+JOIN comments on comments.user_id = users.id
+WHERE username = 'Payton88';
 
--- Answer of questions: endss --
+
+-- Answer of questions: ends --
 
 -- EXPLAIN -> Build a query plan and display info about it
 -- EXPLAIN ANALYZE -> Build a query plan, run it, and info about it.
