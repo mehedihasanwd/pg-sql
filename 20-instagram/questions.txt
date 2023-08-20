@@ -10,7 +10,7 @@ users:
 
 05. Check how much time it takes to retrieve data from 'users' collection in both 'index' and without 'index'.
 
-06. Join users and comments based on user id and print username, content if the username is 'Payton88'.
+06. Join users and comments based on user id and print 'username', 'contents' if the username is 'Payton88'.
 
 ------------------------------------------------------------------
 posts:
