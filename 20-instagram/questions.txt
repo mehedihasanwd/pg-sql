@@ -12,6 +12,8 @@ users:
 
 06. Join users and comments based on user id and print 'username', 'contents' if the username is 'Payton88'.
 
+07. Join users and comments based on user id and print 'username', 'contents' if the username is 'Payton88' and apply 'EXPLAIN' and 'ANALYZE EXPLAIN' to check query performance.
+
 ------------------------------------------------------------------
 posts:
 
