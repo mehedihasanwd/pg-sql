@@ -39,3 +39,6 @@ WHERE username = 'Payton88';
 
 
 -- Answer of questions: endss --
+
+-- EXPLAIN -> Build a query plan and display info about it
+-- EXPLAIN ANALYZE -> Build a query plan, run it, and info about it.
