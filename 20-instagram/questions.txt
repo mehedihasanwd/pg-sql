@@ -41,3 +41,8 @@ hashtag_posts:
 
 ------------------------------------------------------------------
 followers:
+
+------------------------------------------------------------------
+users, caption_tags, photo_tags:
+
+01. Show the 'username' of 'users' who were tagged in a 'caption' or 'photo' before January 7th, 2010. Also show the date they were tagged.
