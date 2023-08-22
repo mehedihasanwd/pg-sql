@@ -56,3 +56,5 @@ combine (users, caption_tags, photo_tags):
 05. Write a query to display the most popular 'users' - the 'users' who were tagged the most.
 
 06. Create a view combining 'photo_tags' and 'caption_tags'.
+
+07. Write a query to display the most popular 'users' - the 'users' who were tagged the most. Use 'VIEW' to combine 'photo_tags' and 'caption_tags'
