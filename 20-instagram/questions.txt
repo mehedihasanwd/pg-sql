@@ -62,3 +62,5 @@ combine (users, caption_tags, photo_tags):
 08. Creacte a 'VIEW' to display 10 'most recent' post.
 
 09. Write a query to print 'username' of the 'users' who created 10 'posts' recently.
+
+10. Write some queries to "Change" and "Delete" a VIEW.
