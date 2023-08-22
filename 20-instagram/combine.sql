@@ -82,5 +82,9 @@ CREATE VIEW recent_posts AS (
 
 SELECT * FROM recent_posts;
 
+-- Answer to the question no -> 09
+SELECT username
+FROM recent_posts
+JOIN users ON users.id = recent_posts.user_id;
 
 -- Answer to the questions: ends --
