@@ -48,3 +48,5 @@ users, caption_tags, photo_tags:
 01. Show the 'username' of 'users' who were tagged in a 'caption' or 'photo' before January 7th, 2010. Also show the date they were tagged.
 
 02. Use the "CTE" or 'Common Table Expression' to answer the quesion no 01.
+
+03. Write a recursive "CTE" query to return values like 3, 2, 1
