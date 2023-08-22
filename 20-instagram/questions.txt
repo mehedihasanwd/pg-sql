@@ -50,3 +50,5 @@ combine (users, caption_tags, photo_tags):
 02. Use the "CTE" or 'Common Table Expression' to answer the quesion no 01.
 
 03. Write a recursive "CTE" query to return values like 3, 2, 1
+
+04. Write a recursive "CTE" to find the followers of a "user".
