@@ -42,4 +42,14 @@ JOIN users ON users.id = suggestions.leader_id
 WHERE depth > 1
 LIMIT 30;
 
+SELECT username, COUNT(*) AS tagged_in
+FROM users 
+JOIN (
+	SELECT user_id FROM photo_tags
+ UNION ALL
+	SELECT user_id FROM caption_tags
+) AS tags ON tags.user_id = users.id
+GROUP BY users.username
+ORDER BY COUNT(*) DESC LIMIT 1
+
 -- Answer to the questions: ends --
