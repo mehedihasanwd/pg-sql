@@ -72,5 +72,15 @@ JOIN tags ON tags.user_id = users.id
 GROUP BY users.username
 ORDER BY COUNT(*) DESC LIMIT 1
 
+-- Answer to the question no -> 08
+CREATE VIEW recent_posts AS (
+	SELECT * 
+	FROM posts
+	ORDER BY created_at DESC
+	LIMIT 10
+);
+
+SELECT * FROM recent_posts;
+
 
 -- Answer to the questions: ends --
