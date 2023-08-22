@@ -18,5 +18,12 @@ FROM users
 JOIN  tags ON tags.user_id = users.id
 WHERE tags.created_at < '2010-01-07';
 
+WITH RECURSIVE countdown(val) AS (
+	SELECT 3 AS val
+	UNION
+	SELECT val - 1 FROM countdown WHERE val > 1
+)
+SELECT *
+FROM countdown;
 
 -- Answer to the questions: ends --
