@@ -64,3 +64,8 @@ combine (users, caption_tags, photo_tags):
 09. Write a query to print 'username' of the 'users' who created 10 'posts' recently.
 
 10. Write some queries to "Change" and "Delete" a VIEW.
+
+----------------------------------------------------------------
+Questions to queries on posts, likes, comments:
+
+01. For each week, show the number of likes that posts and comments received. Use the post and comment created_at datae, not when the like was received. (Materialize View)
